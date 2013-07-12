@@ -1,0 +1,37 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Bootstrap Tabs</Title>
+    <Author>David Votrubec - davidjs.com</Author>
+    <Shortcut>btabs</Shortcut>
+    <Description>Markup snippet for a Bootstrap Tabs</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>href</ID>
+        <ToolTip>href</ToolTip>
+        <Default>#</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="html">
+    <![CDATA[
+    <ul class="nav nav-tabs" data-toggle="tab">
+        <li class="active">
+            <a href="#one">One</a>
+        </li>
+        <li>
+            <a href="#two">Two</a>
+        </li>
+    </ul>
+    
+    <div class="tab-content">
+      <div class="tab-pane active" id="one">One content</div>
+      <div class="tab-pane" id="two">Two content</div>
+    </div>
+    $end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
